@@ -7,7 +7,7 @@ for (let i = 0; i < 256; i++) {
 }
 
 //Hover
-newDiv.addEventListener("mouseOver", (e) => e.target.classList.add("hover"));
+document.getElementById("color").addEventListener("mouseover", mouseOut);
 
 function mouseOut() {
   document.getElementById("color").style.backgroundColor = "white";
