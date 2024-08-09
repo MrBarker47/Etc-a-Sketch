@@ -15,8 +15,14 @@
 
 
  #container .content {
-    padding: 7px;
+    padding: 6px;
     border: 1px solid black;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 2.2px;
+    height: 0px; */
+
 }
 
 
@@ -25,5 +31,6 @@
 button {
     background-color: black;
     color: white;
+    margin-left: 20px;
 }
 
